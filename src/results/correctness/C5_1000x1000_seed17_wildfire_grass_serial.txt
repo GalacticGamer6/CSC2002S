@@ -1,0 +1,14 @@
+Fireline serial simulation
+Mode: wildfire
+Rows: 1000, Columns: 1000
+Random seed: 17
+Landscape: grass
+Initial source: square patch top-left=(20,20), size=9, active cells=81
+Timesteps completed: 16018
+Converged: yes
+Final burning cells: 0
+Cells burned: 996004
+Maximum peak temperature: 615.508
+Maximum change in final timestep: 0.049373
+Core simulation time: 144684.705 ms
+Images written with prefix: results/correctness/C5_1000x1000_seed17_wildfire_grass_serial

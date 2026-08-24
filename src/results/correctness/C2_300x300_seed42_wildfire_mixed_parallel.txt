@@ -1,0 +1,14 @@
+Fireline parallel simulation
+Mode: wildfire
+Rows: 300, Columns: 300
+Random seed: 42
+Landscape: mixed
+Initial source: square patch top-left=(146,62), size=9, active cells=81
+Timesteps completed: 2406
+Converged: yes
+Final burning cells: 0
+Cells burned: 22345
+Maximum peak temperature: 740.049
+Maximum change in final timestep: 0.049812
+Core simulation time: 1168.446 ms
+Images written with prefix: results/correctness/C2_300x300_seed42_wildfire_mixed_parallel

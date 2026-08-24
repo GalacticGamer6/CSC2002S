@@ -1,0 +1,14 @@
+Fireline parallel simulation
+Mode: wildfire
+Rows: 1500, Columns: 1500
+Random seed: 17
+Landscape: mixed
+Initial source: square patch top-left=(745,370), size=9, active cells=81
+Timesteps completed: 23836
+Converged: yes
+Final burning cells: 0
+Cells burned: 1677956
+Maximum peak temperature: 856.679
+Maximum change in final timestep: 0.049605
+Core simulation time: 256709.687 ms
+Images written with prefix: results/benchmark/parallel_1500_4

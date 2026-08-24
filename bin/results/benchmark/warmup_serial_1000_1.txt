@@ -1,0 +1,14 @@
+Fireline serial simulation
+Mode: wildfire
+Rows: 1000, Columns: 1000
+Random seed: 17
+Landscape: mixed
+Initial source: square patch top-left=(495,245), size=9, active cells=81
+Timesteps completed: 8917
+Converged: yes
+Final burning cells: 0
+Cells burned: 492426
+Maximum peak temperature: 853.763
+Maximum change in final timestep: 0.049166
+Core simulation time: 90221.944 ms
+Images written with prefix: results/benchmark/warmup_serial_1000_1

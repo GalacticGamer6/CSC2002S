@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "FirelineParallel",
+            "request": "launch",
+            "mainClass": "FirelineParallel",
+            "projectName": "FirelineSerial"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "FirelineSerial",
+            "request": "launch",
+            "mainClass": "FirelineSerial",
+            "projectName": "FirelineSerial",
+            "args": "300 300 42 wildfire output/fireline"
+        }
+    ]
+}
