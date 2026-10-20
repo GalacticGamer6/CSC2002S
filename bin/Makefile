@@ -3,7 +3,7 @@ JAVA = java
 
 JFLAGS = --release 11 -d bin
 
-SOURCES = FirelineSerial.java FireMapParallel.java FireTask.java FireMap.java TerrainType.java
+SOURCES = FirelineParallel.java FireMapParallel.java FireTask.java FireMap.java TerrainType.java
 
 ARGS ?= 500 500 17 wildfire output/run17 50000 0.05 mixed
 
